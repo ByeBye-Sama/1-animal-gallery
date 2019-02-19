@@ -27,7 +27,7 @@ a{
 }
 
 .header a{
-  color: #ffffff;
+  color: #fff;
 }
 
 .header .header-logo {
@@ -48,3 +48,57 @@ a{
 .header .nav a:hover {
   text-decoration: underline;
 }
+
+.main .container{
+  display: flex;
+  border-left: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
+}
+
+.main aside{
+  width: 20%;
+  border-left: 1px solid #cdcdcd
+}
+
+.main aside a {
+  display: block;
+  padding: 10px;
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.main aside a:hover {
+ background: #f00;
+ color: #fff;
+}
+
+.main section{
+  width: 80%;
+  padding: 20px;
+  border-left: 1px solid #cdcdcd;
+}
+
+.card{
+  display: flex;
+}
+
+.card figure{
+  width: 30%;
+}
+
+.card img{
+  width: 100%;
+}
+
+.card div{
+  padding: 15px;
+}
+
+.card figcaption{
+  background: #cdcdcd;
+  padding: 10px;
+}
+
+.card p{
+  margin: 0 0 8px;
+}
+
