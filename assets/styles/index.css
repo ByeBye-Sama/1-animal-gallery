@@ -1,0 +1,50 @@
+/*
+main css */
+body{
+  font-size: 13px;
+  font-family: arial;
+  color: #cdcdcd;
+}
+
+a{
+  text-decoration: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+.header {
+  background: #f00;
+  height: 50px;
+}
+
+.header .container{
+  clear: both;
+  overflow: hidden;
+}
+
+.header a{
+  color: #ffffff;
+}
+
+.header .header-logo {
+  float: left;
+  margin: 19px 0 0 0;
+}
+
+.header .nav{
+  float: right;
+  margin-top: 19px;
+}
+
+.header .nav li{
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+.header .nav a:hover {
+  text-decoration: underline;
+}
