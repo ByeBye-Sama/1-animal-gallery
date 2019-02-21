@@ -80,8 +80,8 @@ time {
 }
 
 .header .container{
-  clear: both;
-  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
 }
 
 .header a{
@@ -89,14 +89,13 @@ time {
 }
 
 .header .header-logo {
-  float: left;
+  height: 50px;
 }
 
-.header .nav{
-  float: right;
+.header img{
+  height: 100%;
 }
 
-.header .header-logo,
 .header .nav{
   margin: 19px 0 0;
 }
@@ -129,7 +128,11 @@ time {
   border-bottom: 1px solid #cdcdcd;
 }
 
-.main aside a:hover {
+.main aside a:active{
+  color: #f00;
+}
+
+.main aside li.active a{
  background: #f00;
  color: #fff;
 }
