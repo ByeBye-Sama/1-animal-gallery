@@ -1,20 +1,78 @@
 /*
 main css */
+
+/*global
+------------------------------*/
 body{
   font-size: 13px;
   font-family: arial;
-  color: #cdcdcd;
+  color: #757070;
 }
 
 a{
   text-decoration: none;
+  color: #000
 }
+
+p{
+  margin: 0 0 20px;
+  line-height: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: helvetica;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+time {
+  background: #cdcdcd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 0;
+  display: inline-block;
+}
+
+/*layout
+------------------------------*/
 
 .container {
   width: 100%;
   max-width: 960px;
   margin: auto;
 }
+
+/*header
+------------------------------*/
 
 .header {
   background: #f00;
@@ -32,12 +90,15 @@ a{
 
 .header .header-logo {
   float: left;
-  margin: 19px 0 0 0;
 }
 
 .header .nav{
   float: right;
-  margin-top: 19px;
+}
+
+.header .header-logo,
+.header .nav{
+  margin: 19px 0 0;
 }
 
 .header .nav li{
@@ -49,6 +110,9 @@ a{
   text-decoration: underline;
 }
 
+/*main
+------------------------------*/
+
 .main .container{
   display: flex;
   border-left: 1px solid #cdcdcd;
@@ -57,7 +121,6 @@ a{
 
 .main aside{
   width: 20%;
-  border-left: 1px solid #cdcdcd
 }
 
 .main aside a {
@@ -77,28 +140,54 @@ a{
   border-left: 1px solid #cdcdcd;
 }
 
-.card{
+/*card
+------------------------------*/
+
+.card {
   display: flex;
+  margin: 0 0 20px;
 }
 
-.card figure{
-  width: 30%;
+.card figure {
+  width: 50%;
 }
 
-.card img{
+.card img {
   width: 100%;
 }
 
-.card div{
+.card div {
   padding: 15px;
 }
 
-.card figcaption{
+.card figcaption {
   background: #cdcdcd;
   padding: 10px;
 }
 
-.card p{
-  margin: 0 0 8px;
+.card p {
+ margin: 0 0 8px;
 }
 
+/*footer
+------------------------------*/
+
+.footer {
+  background: #f00;
+  padding: 20px;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer p {
+  margin: 0;
+}
