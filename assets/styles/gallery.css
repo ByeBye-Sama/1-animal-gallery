@@ -1,0 +1,89 @@
+/*
+gallery css */
+
+/*global
+------------------------------*/
+body{
+  font: 13px arial;
+  color: #707070;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+p{
+  margin: 0 0 20px;
+  line-height: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: helvetica;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 14px;
+}
+
+h5 {
+  font-size: 15px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+/*layout
+------------------------------*/
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: auto;
+}
+
+/*header
+------------------------------*/
+
+.header {
+  background: #fff;
+  height: 165px;
+}
+
+.header .container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .header-logo {
+  height: 165px;
+  margin: 20px 0 0;
+}
+
+.header img{
+  height: 70%;
+}
+
+.header .search{
+  margin: 55px 0 0;
+}
