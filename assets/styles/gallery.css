@@ -124,7 +124,9 @@ input[type="search"]::placeholder{
   transition-duration: 0.3s;
 }
 
-.main aside a:hover, a:focus, a:active{
+.main aside a:hover,
+a:focus,
+a:active{
   transform: scale(1.2);
 }
 
@@ -173,7 +175,9 @@ input[type="search"]::placeholder{
   transition-duration: 0.3s;
 }
 
-.card:hover, .card:focus, .card:active{
+.card:hover,
+.card:focus,
+.card:active{
   transform: scale(1.2);
 }
 
@@ -190,7 +194,9 @@ input[type="search"]::placeholder{
   visibility: hidden;
 }
 
-.card:hover .overtext{
+.card:hover .overtext,
+.card:focus .overtext,
+.card:active .overtext{
   visibility: visible;
 }
 
@@ -223,17 +229,24 @@ input[type="search"]::placeholder{
   font-weight: bold;
 }
 
-.hoverpage, .bigger{
+.hoverpage,
+.bigger{
   transition-property: transform;
   transition-duration: 0.3s;
 }
 
-.hoverpage:hover, .hoverpage:focus, .hoverpage:active,
-.bigger:hover, .bigger:focus, .bigger:active{
+.hoverpage:hover,
+.hoverpage:focus,
+.hoverpage:active,
+.bigger:hover,
+.bigger:focus,
+.bigger:active{
   transform: scale(1.2);
 
 }
-.hoverpage:hover, .hoverpage:focus, .hoverpage:active{
+.hoverpage:hover,
+.hoverpage:focus,
+.hoverpage:active{
   text-decoration: underline;
 }
 
