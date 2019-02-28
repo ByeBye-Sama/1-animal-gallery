@@ -226,6 +226,33 @@ a:active{
   visibility: visible;
 }
 
+.card .list-tags{
+  display: flex;
+  justify-content: flex-start;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.card .list-tags .tag1,
+.card .list-tags .tag2,
+.card .list-tags .tag3{
+  padding: 2px 5px 2px 5px;
+  margin-right: 5px;
+  border-radius: 8px;
+}
+
+.card .list-tags .tag1{
+  background-color: #00ffdf;
+}
+
+.card .list-tags .tag2{
+  background-color: #1fff03;
+}
+
+.card .list-tags .tag3{
+  background-color: #dd00ff;
+}
+
 /*pages
 ------------------------------*/
 
