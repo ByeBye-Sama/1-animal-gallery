@@ -201,16 +201,20 @@ a:active{
   transition-duration: 0.3s;
 }
 
-.card1{
-  border: solid #00ffdf 2px;
+.card img{
+  border:solid 3px;
 }
 
-.card2{
-  border: solid #1fff03 2px;
+.card .card1{
+  border-color: #00ffdf;
 }
 
-.card3{
-  border: solid #dd00ff 2px;
+.card .card2{
+  border-color: #1fff03;
+}
+
+.card .card3{
+  border-color: #dd00ff;
 }
 
 .card:hover,
