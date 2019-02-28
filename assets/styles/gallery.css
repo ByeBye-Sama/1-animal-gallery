@@ -29,27 +29,27 @@ h6{
   margin-bottom: 10px;
 }
 
-h1 {
+h1{
   font-size: 24px;
 }
 
-h2 {
+h2{
   font-size: 18px;
 }
 
-h3 {
+h3{
   font-size: 16px;
 }
 
-h4 {
+h4{
   font-size: 14px;
 }
 
-h5 {
+h5{
   font-size: 15px;
 }
 
-h6 {
+h6{
   font-size: 16px;
 }
 
@@ -306,19 +306,19 @@ a:active{
 /*footer
 ------------------------------*/
 
-.footer {
+.footer{
   padding: 20px;
 }
 
-.footer a {
+.footer a{
   text-decoration: underline;
 }
 
-.footer .container {
+.footer .container{
   display: flex;
   justify-content: space-between;
 }
 
-.footer p {
+.footer p{
   margin: 0;
 }
