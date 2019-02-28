@@ -201,6 +201,18 @@ a:active{
   transition-duration: 0.3s;
 }
 
+.card1{
+  border: solid #00ffdf 2px;
+}
+
+.card2{
+  border: solid #1fff03 2px;
+}
+
+.card3{
+  border: solid #dd00ff 2px;
+}
+
 .card:hover,
 .card:focus,
 .card:active{
