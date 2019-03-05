@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,17 @@
   <link rel="stylesheet" href="./assets/styles/reset.css">
   <link rel="stylesheet" href="./assets/styles/gallery.css">
 </head>
-<body>
+
+<body class="fade">
+
+  <div class="overlay">
+    <div class="boxoverlay">
+      <div class="xbutton">
+        <a>X</a>
+      </div>
+    </div>
+  </div>
+
   <div class="wrapper">
 
     <!--Header------------------------------>
@@ -17,15 +28,14 @@
       <div class="container">
         <strong class="header-logo">
           <a href="./index.html">
-              <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/329B58BA-BAFE-4C56-A057-F333ED5DF4C9.png" alt="Logo">
+            <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/329B58BA-BAFE-4C56-A057-F333ED5DF4C9.png"
+              alt="Logo">
           </a>
         </strong>
 
         <div class="search">
-          <input type="search"
-          placeholder="Search"
-          maxlength="18">
-          <button class= "icon-search"><img src="./assets/img/icon-search.png" alt="search"></button>
+          <input type="search" placeholder="Search" maxlength="18">
+          <button class="icon-search"><img src="./assets/img/icon-search.png" alt="search"></button>
         </div>
       </div>
     </header>
@@ -38,7 +48,8 @@
         <aside class="aside">
           <nav>
             <ul>
-              <li class="animal animal1"><h2>Perros</h2>
+              <li class="animal animal1">
+                <h2>Perros</h2>
                 <ul>
                   <li><a class="dog" href="">Boxer</a></li>
                   <li><a class="dog" href="">Bulldog</a></li>
@@ -46,13 +57,15 @@
                   <li><a class="dog" href="">Pitbull</a></li>
                 </ul>
               </li>
-              <li class="animal animal2"><h2>Gatos</h2>
+              <li class="animal animal2">
+                <h2>Gatos</h2>
                 <ul>
                   <li><a class="cat" href="">Siames</a></li>
                   <li><a class="cat" href="">Angora</a></li>
                 </ul>
               </li>
-              <li class="animal animal3"><h2>Aves</h2>
+              <li class="animal animal3">
+                <h2>Aves</h2>
                 <ul>
                   <li><a class="bird" href="">Loro</a></li>
                   <li><a class="bird" href="">Paloma</a></li>
@@ -69,48 +82,64 @@
 
             <article class="card">
               <figure>
-                <img class="card1" src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img class="card1"
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
-                <ul class= "list-tags">
-                    <li>
-                      <span class="tag1">Dogs</span>
-                    </li>
-                    <li>
-                      <span class="tag1">Siberian</span>
-                    </li>
+                <ul class="list-tags">
+                  <li>
+                    <span class="tag1">Dogs</span>
+                  </li>
+                  <li>
+                    <span class="tag1">Siberian</span>
+                  </li>
                 </ul>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
@@ -121,48 +150,64 @@
 
             <article class="card">
               <figure>
-                <img class="card3" src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img class="card3"
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
-                 <ul class= "list-tags">
-                    <li>
-                      <span class="tag3">Birds</span>
-                    </li>
-                    <li>
-                      <span class="tag3">Bald Eagle</span>
-                    </li>
+                <ul class="list-tags">
+                  <li>
+                    <span class="tag3">Birds</span>
+                  </li>
+                  <li>
+                    <span class="tag3">Bald Eagle</span>
+                  </li>
                 </ul>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
@@ -173,48 +218,64 @@
 
             <article class="card">
               <figure>
-                <img class="card2" src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img class="card2"
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
-                 <ul class= "list-tags">
-                    <li>
-                      <span class="tag2">Cats</span>
-                    </li>
-                    <li>
-                      <span class="tag2">Bengal</span>
-                    </li>
+                <ul class="list-tags">
+                  <li>
+                    <span class="tag2">Cats</span>
+                  </li>
+                  <li>
+                    <span class="tag2">Bengal</span>
+                  </li>
                 </ul>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/07F9448F-FB80-4056-8438-E1A0FE5A04AC.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
@@ -225,40 +286,56 @@
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
 
             <article class="card">
               <figure>
-                <img src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png" alt="">
-               </figure>
+                <img
+                  src="https://cdn.zeplin.io/5c6e3de1692fc64091b45afd/assets/0D695B7D-8BA0-4745-88AA-961AC545EB5C.png"
+                  alt="">
+              </figure>
               <div class="overtext">
-                <p><h3>Anything</h3></p>
+                <p>
+                  <h3>Anything</h3>
+                </p>
                 <p>Gatitos haciendo cosas de gatitos</p>
               </div>
             </article>
@@ -266,7 +343,7 @@
           </div>
 
           <div class="navpages">
-           <nav>
+            <nav>
               <ul>
                 <li class="bigger"><a href="">&lt;</a></li>
                 <li class="currentpage hoverpage"><a href="">1</a></li>
@@ -293,6 +370,9 @@
       </div>
     </footer>
 
+
+
   </div>
 </body>
+
 </html>
