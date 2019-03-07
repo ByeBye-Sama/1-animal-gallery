@@ -117,18 +117,33 @@ h6{
   padding: 10px;
   border-radius: 50px;
   background: #000;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.xbutton:active{
+  transform: scale(0.5);
 }
 
 .xbutton a{
+  display: inline-block;
   font-size: 22px;
-
   color: #fff;
+  padding: 12px;
+  transition-property: transform;
+  transition-duration: 1s;
+}
+
+.xbutton a:hover{
+  display: inline-block;
+  transform: rotate(360deg) scale(1.2);
+  color: #E75A3D;
+  font-weight: bold;
 }
 
 .textinfo{
   display: flex;
   justify-content: center;
-
 }
 
 .textinfo h2{
@@ -197,6 +212,12 @@ h6{
   background-color: #6330ff;
   color: #fff;
   outline: none;
+  transition-property: transform;
+  transition-duration: 0.5s;
+}
+
+.buttonset:active{
+  transform: scale(0.5);
 }
 
 /*header
