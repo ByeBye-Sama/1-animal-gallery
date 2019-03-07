@@ -118,6 +118,7 @@ h6{
   padding: 10px;
   border-radius: 100%;
   background: #000;
+  cursor: pointer;
   transition-property: transform;
   transition-duration: 0.5s;
 }
@@ -212,6 +213,7 @@ h6{
   background-color: #6330ff;
   color: #fff;
   outline: none;
+  cursor: pointer;
   transition-property: transform;
   transition-duration: 0.5s;
 }
