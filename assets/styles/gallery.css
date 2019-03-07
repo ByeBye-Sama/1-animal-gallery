@@ -135,7 +135,6 @@ h6{
 }
 
 .xbutton a:hover{
-  display: inline-block;
   transform: rotate(360deg) scale(1.2);
   color: #E75A3D;
   font-weight: bold;
@@ -260,8 +259,8 @@ h6{
 }
 
 .header .icon-search:hover,
-.icon-search:focus,
-.icon-search:active{
+.header .icon-search:focus,
+.header .icon-search:active{
   transform: scale(1.5);
 }
 
@@ -308,8 +307,8 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 
 .main aside a:hover,
-a:focus,
-a:active{
+.main aside a:focus,
+.main aside a:active{
   transform: scale(1.2);
 }
 
