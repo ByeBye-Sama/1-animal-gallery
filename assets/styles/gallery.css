@@ -101,6 +101,7 @@ h6{
   max-height: 423px;
   border-radius: 10px;
   background: #fff;
+  color: #000;
 }
 
 .xbutton{
@@ -111,8 +112,8 @@ h6{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 37px;
-  height: 37px;
+  width: 35px;
+  height: 35px;
   padding: 10px;
   border-radius: 50px;
   background: #000;
@@ -120,8 +121,82 @@ h6{
 
 .xbutton a{
   font-size: 22px;
-  font-weight: bold;
+
   color: #fff;
+}
+
+.textinfo{
+  display: flex;
+  justify-content: center;
+
+}
+
+.textinfo h2{
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 45px;
+  font-size: 30px;
+  white-space: nowrap;
+}
+
+.infobox{
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.infobox img{
+  margin-right: 20px;
+}
+
+.infobox .simpletext{
+  display: inline-block;
+  margin-top: 10px;
+  width: 175px;
+  white-space: nowrap;
+}
+
+.simpletext p{
+  margin-bottom: 3px;
+}
+
+.infoinput{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.inputset{
+  margin-top: 15px;
+}
+
+.infoinput input[type="text"]{
+  width: 100%;
+  height: 40px;
+  color: #000;
+  border: solid 1px #A9A9A9;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  text-indent: 10px;
+  outline: none;
+}
+
+.infoinput input[type="text"]::placeholder{
+  color: #000;
+}
+
+.buttonset{
+  width: 75px;
+  height: 30px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #6330ff;
+  color: #fff;
+  outline: none;
 }
 
 /*header
@@ -169,7 +244,7 @@ h6{
   transform: scale(1.5);
 }
 
-input[type="search"]{
+.header input[type="search"]{
   width: 100%;
   height: 36px;
   color: #808080;
@@ -182,7 +257,7 @@ input[type="search"]{
   padding-left: 10px;
 }
 
-input[type="search"]::placeholder{
+.header input[type="search"]::placeholder{
   color: #A9A9A9;
 }
 
