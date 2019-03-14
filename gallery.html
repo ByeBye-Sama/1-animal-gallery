@@ -31,15 +31,33 @@
           <p>your information below</p>
 
           <div class="infoinput">
+
             <input class="inputset" type="text" placeholder="Name" maxlength="18">
             <input class="inputset" type="text" placeholder="Email" maxlength="30">
-            <select name="" id="">
-              <option value="">Select our country</option>
-              <option value="peru">Peru</option>
-              <option value="colombia">Colombia</option>
-              <option value="argentina">Argentina</option>
-            </select>
+
+            <div class="">
+              <select class="countryset" name="" id="">
+                <option value="0">Select our country</option>
+                <option value="1">Peru</option>
+                <option value="2">Colombia</option>
+                <option value="3">Argentina</option>
+              </select>
+            </div>
+
+            <div class="genderset">
+              <label for="">
+                M
+                <input name="gender" type="radio" checked>
+              </label>
+              <label for="">
+                F
+                <input name="gender" type="radio">
+              </label>
+              <label for=""></label>
+            </div>
+
             <button class="buttonset">SUBMIT</button>
+
           </div>
 
         </div>
